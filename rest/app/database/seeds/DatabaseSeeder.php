@@ -11,7 +11,26 @@ class DatabaseSeeder extends Seeder {
 	{
 		Eloquent::unguard();
 
-		// $this->call('UserTableSeeder');
+		$this->call('AthomesTableSeeder');
 	}
 
+}
+
+class AthomesTableSeeder extends Seeder
+{
+	public function run()
+	{
+		Athomes::create(array(
+			'temperature'=>'19.8',
+			'sensors1'=>'22.2',
+			'sensors2'=>'7.5',
+			'led1'=>False
+		));
+		Athomes::create(array(
+			'temperature'=>'18.8',
+			'sensors1'=>'22.0',
+			'sensors2'=>'7.6',
+			'led1'=>False
+		));
+	}
 }
