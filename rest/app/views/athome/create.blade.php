@@ -9,7 +9,6 @@
 	    <title>@yield('title')</title>
 		<link rel="stylesheet" type="text/css" href="<?= url('css/bootstrap.min.css') ?>" />
 		<link rel="stylesheet" type="text/css" href="<?= url('css/bootstrap-select.min.css') ?>" />
-	    <link rel="stylesheet" href="<?= url('css/justified-nav.css') ?>" type="text/css" media="screen" />
 	</head>
 <body>
 
@@ -18,6 +17,8 @@
 
 <div class="container">
   <div class="row-fluid">
+<h1>Create </h1>
+
 	{{ HTML::ul($errors->all()) }}
 	{{ Form::open(array('url' => 'athome')) }}
 

@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'laravel',
+			'database'  => 'iot',
 			'username'  => 'root',
 			'password'  => '940217',
 			'charset'   => 'utf8',
