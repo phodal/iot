@@ -9,3 +9,6 @@ A Minimum IOT with arduino and raspberry pi.
 - PHP(Laravel Framework)
 - Python(for Raspberry pi)
 - Processing/C/C++ (Arduino)
+
+##Seed##
+    php  artisan db:seed
