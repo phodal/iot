@@ -1,0 +1,32 @@
+{
+    "name": "illuminate/workbench",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylorotwell@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/filesystem": "4.1.x",
+        "illuminate/support": "4.1.x",
+        "symfony/finder": "2.4.*"
+    },
+    "require-dev": {
+        "illuminate/console": "4.1.x",
+        "mockery/mockery": "0.7.2",
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Illuminate\\Workbench": ""
+        }
+    },
+    "target-dir": "Illuminate/Workbench",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.1-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
