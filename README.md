@@ -15,7 +15,7 @@ System structure frame
 
         cd python
  
-        python get.py
+        sudo python get.py
 
  4. open localhost/athome/create to create a seed.and open /athome/1/edit for a status change
 

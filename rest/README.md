@@ -9,6 +9,18 @@
 
 
 ##Quick Start##
+Add the Database to your MySQL
+
+And edit the 
+
+    app/config/database.php
+    
+for 
+
+    database
+
+    password
+    
 To Laravel
 
     git clone https://github.com/laravel/laravel
@@ -23,23 +35,11 @@ For more informations can visit my blog of it
  - [Laravel RESTful快速部署指南（二）][2] 
  - [Laravel RESTful快速部署指南（三）][3] 
 
-##Only Four File to Edit##
+##If need edit##
  - app/modals/Athomes.php
  - app/routes.php
  - app/database/migrations/%date%_create_athomes_table.php
  - app/controllers/AthomesController.php
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
