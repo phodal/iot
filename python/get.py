@@ -3,7 +3,7 @@ import json
 import urllib2
 import serial
 
-url="http://www.xianuniversity.com/athome/1"
+url="http://b.phodal.com/athome/1"
 
 while 1:
     try:
