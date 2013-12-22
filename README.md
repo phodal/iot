@@ -2,9 +2,15 @@
 A Minimum IOT with arduino and raspberry 
 pi.
 
-System structure frame
+##System Structure##
+
 ![](https://raw.github.com/gmszone/iot/master/dot/struct.jpg)
 
+##Documention##
+
+[一个最小的物联网系统设计方案及源码][2]
+
+[Wiki][3]
 ##How to test On you computer##
  1. If you have a Arduino.
 
@@ -20,7 +26,7 @@ System structure frame
  4. open localhost/athome/create to create a seed.and open /athome/1/edit for a status change
 
  5. For a basic test you can visit [b.phodal.com][1]
-
+ 
 
 
 
@@ -39,3 +45,5 @@ System structure frame
     php  artisan db:seed
 
 [1]:http://b.phodal.com
+[2]:http://www.phodal.com/blog/bare-minimum-iot
+[3]:https://github.com/gmszone/iot/wiki
