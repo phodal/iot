@@ -1,6 +1,10 @@
 #Minimum Internet of Things#
 A Minimum IOT with arduino and raspberry 
 pi.
+
+System structure frame
+![](https://raw.github.com/gmszone/iot/master/dot/struct.jpg)
+
 ##How to test On you computer##
  1. If you have a Arduino.
 
