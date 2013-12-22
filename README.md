@@ -9,8 +9,9 @@ pi.
 
  3. if Windows need to Change the /dev/ttyACM0 to the COM port for example COM3.If Use of ttyACM0 need to change it to suitable
 
-    cd python
-    python get.py
+        cd python
+ 
+        python get.py
 
  4. open localhost/athome/create to create a seed.and open /athome/1/edit for a status change
 
