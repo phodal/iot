@@ -16,31 +16,143 @@
 </head>
 <body itemscope itemtype="http://schema.org/WebPage" id="body">
 
-<div class="navbar">
-<div class="navbar-inner">
-<div class="container">
-        
-<ul class="nav pull-right">
-			<li ><a href="http://www.thoughtworks.com">ThoughtWorks</a></li>
-</ul>
-</div>
-</div>
-</div>
-
 <div class="container">
 <h1>首页</h1>
-<div itemprop="breadcrumb" >
-  <div class="breadcrumb">
-    <li class="active">ThoughtWorks BBS</li>
-  </div>
+
+<h2>
+	关于
+</h2>
+<p>
+	源码:<a href="https://github.com/gmszone/iot" target="_blank">https://github.com/gmszone/iot</a>
+</p>
+<p>
+	文档可能没有足够的详细，因为剩下的部分都可以Google到，这里就不写详细了。
+</p>
+<h3>
+	框架:
+</h3>
+<p>
+	</p><ul>
+		<li>
+			PHP Laravel 
+		</li>
+		<li>
+			jQuery (Javascript 主要用于Ajax)
+		</li>
+		<li>
+			jQuery Mobile（可选）(我觉得我有点懒，于是从原来做的项目直接拿了出来）
+		</li>
+		<li>
+			Bootstrap (可选） (其实没有多大实际用处，只是因为好看和jQuery Mobile一样)
+		</li>
+	</ul>
+<p></p>
+<h3>
+	语言:
+</h3>
+<p>
+	Processing/C/C++ Arduino用 
+</p>
+<p>
+	Python 如果你有Raspberry Pi或者与之相近的都可以，只要可以与Arduino串口通信
+</p>
+<p>
+	PHP 我学得不是很好，因为Laravel没有让我学好，但是让我能做想做的事。
+</p>
+<h3>
+	相关文章及专栏
+</h3>
+<p>
+	</p><ol>
+		<li>
+			<a href="http://www.phodal.com/blog/bare-minimum-iot/" target="_blank">一个最小的物联网系统设计方案及源码</a>
+		</li>	
+		<li>
+			<a href="http://www.phodal.com/blog/bare-minimum-iot-system-structure/" target="_blank">最小物联网系统（一）——系统组成</a>
+		</li>
+		<li>
+			<a href="http://www.phodal.com/blog/bare-minimum-iot-system-restful/" target="_blank">最小物联网系统（二）——RESTful</a>
+		</li>
+	</ol>
+	
+<p></p>
+<h3>
+	相关知识
+</h3>
+<h4>
+	搞硬件的同学需要重点了解的知识
+</h4>
+<p>
+	</p><ul>
+		<li>
+			RESTful
+		</li>
+		<li>
+			Ajax
+		</li>
+		<li>
+			JSON
+		</li>
+	</ul>
+<p></p>
+<h4>
+	搞软件的同学需要重要了解的知识
+</h4>
+<p>
+	</p><ul>
+		<li>
+			串口通信
+		</li>
+		<li>
+			高低电平
+		</li>
+	</ul>
+<p></p>
+<h3>
+	关于服务器
+</h3>
+<p>
+	</p><ul>
+		<li>
+			Nginx 需要配置，具体配置可以参照github上面的代码
+		</li>
+		<li>
+			LNMP 直接用上面的会比较简单，但是可能也会遇到一些问题。
+		</li>
+		<li>
+			Phpmyadmin 最好需要有这个，如果不是很精通MYSQL
+		</li>
+	</ul>
+<p></p>
+<h3>
+	补充说明
+</h3>
+<p>
+	Arduino不是必需的，只要你懂得如何用你的芯片进行串口通信。
+</p>
+<p>
+	考虑到Raspberry PI的成本可能会有点高，你可以试着用OpenWRT Linux，主要用在路由器用的，上面可以跑Python。或者等等过些时候的小米路由器，可以加这个在上面。
+</p>
+<p>
+	如果你没有服务器没有Raspberry PI，那就找个路由器来当服务器吧，相关文章如下
+</p>
+<p>
+	<a href="http://blog.csdn.net/phodal/article/details/8521712" target="_blank">Openwrt python,openwrt上使用Python<br>
+	</a>对了，如果你觉得哪里有问题记得在GITHUB上提出来，而不是在原文。
+</p>
+<h3>
+	注意
+</h3>
+<p>
+	<span style="">！请尽可能少我的用我的网站做测试</span>
+</p>
 </div>
 
-</div>
-
-<footer>
-<div class="container">
-Powered by <a href="http://www.phodal.com/">Phodal</a>
-</footer>   
+    <div id="footer">
+        <div class="container">
+            <p class="text-muted credit">Power By <a href="http://www.phodal.com">Phodal</a</p>
+        </div>
+    </div>
 
 <script src="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </body>
