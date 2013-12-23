@@ -1,3 +1,6 @@
 [submodule "java"]
 	path = java
 	url = https://github.com/gmszone/Home-Anywhere
+[submodule "android"]
+	path = android
+	url = https://github.com/gmszone/Home-Anywhere
