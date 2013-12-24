@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Minimum Internet of Things#
 A Minimum IOT with arduino and raspberry 
 pi.
@@ -52,3 +53,6 @@ pi.
 [1]:http://b.phodal.com
 [2]:http://www.phodal.com/blog/bare-minimum-iot
 [3]:https://github.com/gmszone/iot/wiki
+=======
+##Web Page of IOT##
+>>>>>>> 1f42042d1e76dfa53310ba0c54c5d17d40fccbc6
