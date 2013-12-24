@@ -4,3 +4,9 @@
 [submodule "android"]
 	path = android
 	url = https://github.com/gmszone/Home-Anywhere
+[submodule "rest"]
+	path = rest
+	url = https://github.com/gmszone/iot-rest
+[submodule "iot-rest"]
+	path = iot-rest
+	url = https://github.com/gmszone/iot-rest

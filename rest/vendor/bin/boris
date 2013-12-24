@@ -1,7 +1,0 @@
-#!/usr/bin/env sh
-SRC_DIR="`pwd`"
-cd "`dirname "$0"`"
-cd '../d11wtq/boris/bin'
-BIN_TARGET="`pwd`/boris"
-cd "$SRC_DIR"
-"$BIN_TARGET" "$@"
