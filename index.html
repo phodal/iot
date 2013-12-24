@@ -13,107 +13,139 @@
 <meta name="google-site-verification" content="0hOARr2OBFHmWVFf1Bank71Vem1i36aGZnnwKLevZbM" />
 <title>开源IOT——最小物联网系统，开源物联网系统</title>
 <link rel="shortcut icon" href="/static/img/favicon.ico">
+<link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+<link type="text/css" rel="stylesheet" href="css/bootstrap-responsive.css" />
+<link type="text/css" rel="stylesheet" href="css/layout.css" />
 <link type="text/css" rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+<script src="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
 </head>
 <body itemscope itemtype="http://schema.org/WebPage" id="body">
+    <div class="outer">
+      <!-- header -->
+      <div id="header-wrap" class="row-fluid">
+        <a href="https://github.com/gmszone/iot"><img
+          style="position: absolute; top: 0; right: 0; border: 0;"
+          src="img/forkme_right_white_ffffff.png" alt="Fork me on GitHub"></a>
+        <header class="span6 offset3">
+          <h1>开源IOT</h1>
+          <h2>一个最小的物联网系统设计方案及源码</h2>
+          <section id="downloads" class="pull-right">
+            <div class="img"></div>
+            <a class="zip-download-link"
+              href="https://github.com/gmszone/iot/archive/master.zip">
+              <span class="download-descr">
+                用.zip下载这个项目
+              </span>
+            </a>
+          </section>
+        </header>
+      </div>
+     </div>
+     </div>
+<div id="main-content-wrap" class="row-fluid">
+        <section id="main-content" class="span6 offset3">
 
-<div class="container">
-<h1>首页</h1>
-
-<h2>
-	关于
-</h2>
+<h2>关于</h2>
 <p>
 	源码:<a href="https://github.com/gmszone/iot" target="_blank">https://github.com/gmszone/iot</a>
 </p>
 <p>
-	文档可能没有足够的详细，因为剩下的部分都可以Google到，这里就不写详细了。
+	<div class="alert alert-warning alert-dismissable">文档可能没有足够的详细，因为剩下的部分都可以Google到，这里就不写详细了。</div>
 </p>
 <h3>
 	框架:
 </h3>
 <p>
-	</p><ul>
-		<li>
-			PHP Laravel 
+	</p><ul class="list-group">
+		<li class="list-group-item">
+			Laravel <span class="label label-default">PHP</span>
 		</li>
-		<li>
-			jQuery (Javascript 主要用于Ajax)
+		<li class="list-group-item">
+			jQuery <span class="label label-default">Javascript 主要用于Ajax</span>
 		</li>
-		<li>
-			jQuery Mobile（可选）(我觉得我有点懒，于是从原来做的项目直接拿了出来）
+		<li class="list-group-item">
+			jQuery Mobile<span class="label label-success">（可选）</span><span class="label label-default">(我觉得我有点懒，于是从原来做的项目直接拿了出来）</span>
 		</li>
-		<li>
-			Bootstrap (可选） (其实没有多大实际用处，只是因为好看和jQuery Mobile一样)
+		<li class="list-group-item">
+			Bootstrap <span class="label label-success">(可选）</span><span class="label label-default">(其实没有多大实际用处，只是因为好看和jQuery Mobile一样)</span>
 		</li>
 	</ul>
 <p></p>
 <h3>
 	语言:
 </h3>
-<p>
-	Processing/C/C++ Arduino用 
-</p>
-<p>
-	Python 如果你有Raspberry Pi或者与之相近的都可以，只要可以与Arduino串口通信
-</p>
-<p>
-	PHP Laravel足够的简单，所以不要想太多了。
-</p>
+<ul class="list-group">
+  <li class="list-group-item">
+	Processing/C/C++ <span class="label label-default">Arduino用 </span>
+</li>
+		<li class="list-group-item">
+	Python <span class="label label-default">如果你有Raspberry Pi或者与之相近的都可以，只要可以与Arduino串口通信</span>
+<</li>
+		<li class="list-group-item">
+	PHP  <span class="label label-default">Laravel足够的简单，所以不要想太多了。</span>
+</li>
+</ul>
 <h3>
 	相关文章
 </h3>
 <p>
-	</p><ol>
-		<li>
+	</p>
+	<ul class="list-group">
+		<li class="list-group-item">
 			<a href="http://www.phodal.com/blog/bare-minimum-iot/" target="_blank">一个最小的物联网系统设计方案及源码</a>
 		</li>	
-		<li>
+		<li class="list-group-item">
 			<a href="http://www.phodal.com/blog/bare-minimum-iot-system-structure/" target="_blank">最小物联网系统（一）——系统组成</a>
 		</li>
-		<li>
+		<li class="list-group-item">
 			<a href="http://www.phodal.com/blog/bare-minimum-iot-system-restful/" target="_blank">最小物联网系统（二）——RESTful</a>
 		</li>
-	</ol>
+	</ul>
 	
 <p></p>
 <h3>
 	相关知识
 </h3>
-<h4>
-	搞硬件的同学需要重点了解的知识
-</h4>
-<p>
-	</p><ul>
-		<li>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">搞硬件的同学需要重点了解的知识</h3>
+  </div>
+  <div class="panel-body">
+     <div class="alert alert-warning alert-dismissable">试着开始去用Google以及Wiki</div>
+  </div>
+    <ul class="list-group">
+		<li class="list-group-item">
 			RESTful
 		</li>
-		<li>
+		<li class="list-group-item">
 			Ajax
 		</li>
-		<li>
+		<li class="list-group-item">
 			JSON
 		</li>
 	</ul>
-<p></p>
-<h4>
-	搞软件的同学需要重要了解的知识
-</h4>
-<p>
-	</p><ul>
-		<li>
-			串口通信
-		</li>
-		<li>
-			高低电平
-		</li>
-	</ul>
-<p></p>
+</div>
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">搞软件的同学需要重要了解的知识</div>
+  <div class="panel-body">
+    <div class="alert alert-warning alert-dismissable">按照我的理解写的，其实不止这么一点点</div>
+  </div>
+
+  <!-- List group -->
+  <ul class="list-group">
+    <li class="list-group-item">串口通信</li>
+    <li class="list-group-item">高低电平</li>
+    <li class="list-group-item">端口</li>
+  </ul>
+</div>
+<div class="well well-lg">
 <h3>
 	关于服务器
 </h3>
-<p>
-	</p><ul>
+        <ul>
 		<li>
 			Nginx 需要配置，具体配置可以参照github上面的代码
 		</li>
@@ -124,7 +156,10 @@
 			Phpmyadmin 最好需要有这个，如果不是很精通MYSQL
 		</li>
 	</ul>
-<p></p>
+</div>
+
+<div class="well well-lg">
+
 <h3>
 	补充说明
 </h3>
@@ -141,12 +176,16 @@
 	<a href="http://www.phodal.com/blog/openwrt-pythonopenwrt%E4%B8%8A%E4%BD%BF%E7%94%A8python/" target="_blank">Openwrt python,openwrt上使用Python<br>
 	</a>对了，如果你觉得哪里有问题记得在GITHUB上提出来，而不是在原文。
 </p>
+</div>
+<div class="well well-lg">
 <h3>
 	注意
 </h3>
 <p>
-	<span style="">！请尽可能少我的用我的网站做测试</span>
+	<div class="alert alert-danger">！请尽可能少我的用我的网站做测试</div>
 </p>
+</div>
+<section>
 </div>
 
     <div id="footer">
@@ -155,8 +194,7 @@
         </div>
     </div>
 
-<script src="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-</body>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -167,4 +205,6 @@
   ga('send', 'pageview');
 
 </script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+
 </html>
