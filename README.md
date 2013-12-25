@@ -2,9 +2,7 @@
 A Minimum IOT with arduino and raspberry 
 pi.
 
-    dot/ for system structure frame
     android/ for a last test project of android in iot
-    nginx/ example for nginx configure
     rest/ PHP Laravel Framework to create RESTful API
     python/ simple python get from internet run in RPI Or PC
     arduino/ A simple version of Hardware
@@ -12,7 +10,7 @@ pi.
 
 ##System Structure##
 
-![](https://raw.github.com/gmszone/iot/master/dot/struct.jpg)
+![](https://raw.github.com/gmszone/iot/master/doc/dot/struct.jpg)
 
 ##Documention##
 
