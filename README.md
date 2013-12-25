@@ -16,9 +16,23 @@ pi.
 
 ##Documention##
 
+[Wiki][3]
+
 [一个最小的物联网系统设计方案及源码][2]
 
-[Wiki][3]
+[最小物联网系统（一）——系统组成][4]
+
+[最小物联网系统（二）——RESTful][5]
+
+[最小物联网系统（三）——创建RESTful][6]
+
+[最小物联网系统（四）——详解Laravel的RESTful][7]
+
+[最小物联网系统（五）——Laravel RESTful模板化][8]
+
+[最小物联网系统（六）——Ajax打造可视化][9]
+
+
 ##How to test On you computer##
  1. If you have a Arduino.
 
@@ -52,3 +66,9 @@ pi.
 [1]:http://b.phodal.com
 [2]:http://www.phodal.com/blog/bare-minimum-iot
 [3]:https://github.com/gmszone/iot/wiki
+[4]:http://www.phodal.com/blog/bare-minimum-iot-system-structure/
+[5]:http://www.phodal.com/blog/bare-minimum-iot-system-restful/
+[6]:http://www.phodal.com/blog/bare-minimum-iot-system-create-restful/
+[7]:http://www.phodal.com/blog/bare-minimum-iot-system-about-restful/
+[8]:http://www.phodal.com/blog/bare-minimum-iot-system-restful-template/
+[9]:http://www.phodal.com/blog/bare-minimum-iot-system-ajax/
