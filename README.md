@@ -47,6 +47,11 @@ pi.
 
  5. For a basic test you can visit [b.phodal.com][1]
  
+##How to test On you Android Phone
+
+![](https://raw.github.com/gmszone/iot/master/doc/images/android.png)
+
+  1. Download the Android app [Stay at Home][10]
 
 ##Basic##
 
@@ -70,3 +75,4 @@ pi.
 [7]:http://www.phodal.com/blog/bare-minimum-iot-system-about-restful/
 [8]:http://www.phodal.com/blog/bare-minimum-iot-system-restful-template/
 [9]:http://www.phodal.com/blog/bare-minimum-iot-system-ajax/
+[10]:https://github.com/gmszone/Home-Anywhere/raw/master/app/build/apk/app-debug-unaligned.apk
