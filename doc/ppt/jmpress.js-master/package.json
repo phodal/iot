@@ -1,0 +1,52 @@
+{
+  "name": "jmpress.js",
+  "version": "0.4.5",
+  "title": "jQuery.jmpress()",
+  "description": "A jQuery plugin to build a website on the infinite canvas.",
+  "homepage": "http://jmpressjs.github.com/jmpress.js",
+  "author": {
+    "name": "Kyle Robinson Young @shama & Tobias Koppers @sokra",
+    "url": "https://github.com/jmpressjs"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Kyle Robinson Young",
+      "url": "https://github.com/shama"
+    },
+    {
+      "name": "Tobias Koppers",
+      "url": "https://github.com/sokra"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jmpressjs/jmpress.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmpressjs/jmpress.js/issues"
+  },
+  "files": [
+    "dist/jmpress.js"
+  ],
+  "scripts": {
+    "test": "grunt qunit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-cssmin": "~0.6.0",
+    "grunt-contrib-jshint": "~0.5.4",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-qunit": "~0.2.2",
+    "grunt-contrib-watch": "~0.4.3",
+    "grunt-contrib-uglify": "~0.2.1",
+    "grunt-contrib-clean": "~0.4.1",
+    "matchdep": "~0.1.2"
+  }
+}

@@ -1,112 +1,200 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=1024" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>IOT</title>
-    
-    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
-    <meta name="author" content="Bartek Szopka" />
+	<meta charset="utf-8" />
+	<title>IOT</title>
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no" />
 
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+	<link href="css/jmpress.css" rel="stylesheet"/>
+	<link href="js/styles/default.css" rel="stylesheet" />
+	<link href="css/github.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+</head>
 
-    <link href="css/impress-demo.css" rel="stylesheet" />
-    </head>
+<script src="fancybox/lib/jquery-1.10.2.min.js"></script>
+<script src="js/jmpress.all.min.js"></script>
+<script type="text/javascript">
+	$.jmpress("template", "auto", {
+		children: function(idx) {
+			return {
+				y: 400
+				,x: -300 + idx * 300
+				,template: "auto"
+				,scale: 0.3
+			}
+		}
+	});
+</script>
+<style >
+h1{
+	color:#515151;
+	font-size:64px;
+}
+h2{
+	font-size:48px;
+}
+h3{
+	font-size: 32px;
+	color:#00B4FF;
+}
+body, .fancybox-wrap {
+    -webkit-transform: translate3d(0,0,1px);
+    -moz-transform:    translate3d(0,0,1px);
+    -ms-transform:     translate3d(0,0,1px);
+    -o-transform:      translate3d(0,0,1px);
+    transform:         translate3d(0,0,1px);
+}
+</style>
+<body>
 
-<body class="impress-not-supported">
 
-<div id="impress">
+	<div id="jmpress" data-template="auto">
+
+		<section id="home">
+			<ul class="title"><li>最<li>小<li>物<li>联<li>网<li>系<li>统<li></ul>
+			<div class="credit">
+				by <a href="http://www.phodal.com">Phodal</a>
+			</div>
+			<div class="tagline">Bare Minimum Internet of Things</div>
+			<div class="ocean"></div>
+			<div class="ocean-floor"></div>
+		</section>
+
+		<section id="about" data-x="-100" data-y="600">
+			<h1>Internet of Things</h1>
+
+			<ul>
+				<li data-jmpress="drive-right after 500ms">RESTful</li>
+				<li data-jmpress="drive-up after 500ms">Ajax</li>
+				<li data-jmpress="warp-right after 500ms">Serial Communication</li>
+				<li data-jmpress="fade after 500ms">Data Visualization</li>
+				<li data-jmpress="drive-right after 500ms">CRUD</li>
+				<li data-jmpress="fade after 500ms" style="list-style:none;"><a href="http://jmpressjs.github.com/docs/animation.html" target="_blank" class="pull-right">GO!</a></li>
+			</ul>
+			<section  id="pan" data-y="200" data-x="-400">
+				<h1>What it USE?</h1>
+				<ul>
+					<li data-jmpress="drive-up after 500ms"><code>jQuery Mobile</code></li>
+					<li data-jmpress="fade after 500ms"><code>Highchart</code></li>
+					<li data-jmpress="drive-right after 500ms"><code>Laravel(PHP)</code></li>
+					<li data-jmpress="warp-right after 500ms"><code>Raspberry PI</code></li>
+					<li data-jmpress="fade after 500ms"><code>Arduino</code></li>
+					<li data-jmpress="drive-left after 500ms"><code>Python</code></li>
+				</ul>
+			</section>
+		</section>
+	
+			<section id="presenter" data-x="0" data-y="-800" data-scale="1.4" data-rotate="90">
+				<h1>系统框架</h1>
+				<img src="imgs/struct.jpg" />
+			</section>
+
+			<section id="notes">
+				<h2>http://b.phodal.com</h2>
+				<h1>/athome</h1>
+				<h3>/1/edit</h3>
+			</section>
+
+			<section id="printable">
+				<h1>o->o<-^->o->o<h1>
+				<h2>
+				<p>Browser(POST)->Server</p>
+				<p>Raspberry PI(GET)<-Server</p>
+				<p>Raspberry PI(SEND)->Arduino</p>
+				<p>Arduino(H/L)->Led</p></h2>
+			</section>
+
+			<section>
+				<h1>RESOURCES<h1>
+				<h2>RESTful</h2>
+				<h1>Things<-->Things</h1>
+			</section>
+
+		<section>
+		<pre style="font-size:24px;"><code class="python" >import json,urllib2,serial
+	url="http://b.phodal.com/athome/1"
+	while True:
+	    status=json.load(urllib2.urlopen(url))[0]['led1']
+	    serialport=serial.Serial("/dev/ttyACM0",9600)
+	    if status==1 :
+	        serialport.write('1')</code></pre>
+		<h2>Python做的事情</h2>
+		<h4>与服务器通信</h4>
+		<h4>与硬件通信</h4>
+			</section>
+
+			<section>
+				<h1>JSON && AJAX</h1 
+				<h2>AJAX全称为“Asynchronous JavaScript and XML”（异步JavaScript和XML）</h2>
+				
+				<pre style="font-size:24px;"><code class="javascript">[{
+					id: 1,
+					temperature: 14,
+					sensors1: 12,
+					sensors2: 12,
+					led1: 1
+				}]</code></pre>
+
+			</section>
+
+			<section>
+				<h1>Hardware</h1>
+				<h2>Arduino</h2>
+				<h2>For idea</h2>
+			</section>
 
 
-    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
-        <q>最小物联网系统设计</q>Internet of Things
-        <br>
-        <q>
-        <b>RESTful</b><br>
-        <b>Ajax</b><br>
-        <b>Serial Communication</b>
-        </q>
-    </div>
 
-    <div class="step slide" data-x="0" data-y="-1500">
-        <q>What it USE?</q>
-        <q>
-        <b> jQuery Mobile</b><b>Highchart</b><br>
-        <b>Laravel(PHP)</b><br>
-        <b> Raspberry PI</b><br>
-        <b>Arduino</b><br>
-        
-        
-        </q>
-    </div>
+				<section>
+					<h1>Code</h1>
+					<h2>https://github.com/gmszone/iot/</h2>
+					<h1>Home Page</h1>
+					<h2>http://iot.phodal.com/</h2>
+				</section>
+			<section>
+				<h1>Thank YOU</h1>
+			</section>
+			</div>
 
-    <div class="step slide" data-x="1000" data-y="-1500">
-      <q>System architecture </q><br>
-      <img src="imgs/struct.jpg" />
-    </div>
 
-    <div id="title" class="step" data-x="0" data-y="0" data-scale="6">
-        <span class="try">http://b.phodal.com </span>
-        <h1>/athome</h1>
-        <span class="footnote">/1/edit</span>
-    </div>
+			<script type="text/javascript">
+				$(function() {
+					$('#jmpress').jmpress({
+						stepSelector: "section"
+						,hash: { use: false }
+					});
+				});
+			</script>
+			<script src="js/highlight.pack.js" type="text/javascript">></script>
+			<script type="text/javascript"> 
+				hljs.tabReplace = '    ';
+				hljs.lineNodes = true;
+				hljs.initHighlightingOnLoad(); 
+			</script> 
+			<!-- Add mousewheel plugin (this is optional) -->
+			<script type="text/javascript" src="fancybox/lib/jquery.mousewheel.pack.js"></script>
+			<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+			<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+			<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
 
-    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-        <q>o->o<-^->o->o</q>
-        <br/><br/>
-        <p>Browser(POST)->Server</p>
-        <p>Raspberry PI(GET)<-Server</p>
-        <p>Raspberry PI(SEND)->Arduino</p>
-        <p>Arduino(H/L)->Led</p>
-        
-    </div>
+			<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$(".various").fancybox({
+						maxWidth	: 800,
+						maxHeight	: 600,
+						fitToView	: false,
+						width		: '70%',
+						height		: '70%',
+						autoSize	: false,
+						closeClick	: false,
+						openEffect	: 'none',
+						closeEffect	: 'none'
+					});
+				});
+			</script>
 
-    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-        <p>RESOURCES<b>RESTful</b> <span class="thoughts">Things<-->Things</span></p>
-    </div>
-
-    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
-        <p> import json,urllib2,serial
-
-	    url="http://b.phodal.com/athome/1"
-	    while True:
-		status=json.load(urllib2.urlopen(url))[0]['led1']
-		serialport=serial.Serial("/dev/ttyACM0",9600)
-		if status==1 :
-		    serialport.write('1')
-		elif status==0:
-		    serialport.write('0')
-</p>
-    </div>
-
-    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <p>JSON && AJAX</p><b class="rotating">Visualization</b>  <br/> <b class="scaling">CRUD</b><br/> <b class="scaling">Simple</b></p>
-    </div>
-
-    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
-        <p>Hardware<br/><b class="imagination">Arduino</b><br>Fidea</p>
-    </div>
-
-    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
-        <p>Any Questions?</q>
-    </div>
-
-    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
-        <p>https://github.com/gmszone/iot/.</p>
-    </div>
-
-    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-        <p>http://iot.phodal.com/</p>
-    </div>
-
-    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
-    </div>
-
-</div>
-
-<script src="js/impress.js"></script>
-<script>impress().init();</script>
-
-</body>
-</html>
+		</body>
+		</html>
