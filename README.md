@@ -30,6 +30,11 @@ pi.
 
 [最小物联网系统（六）——Ajax打造可视化][9]
 
+[最小物联网系统（七）——与服务器通讯][10]
+
+[最小物联网系统（八）——与单片机通讯][11]
+
+[最小物联网系统（九）——Android客户端][12]
 
 ##How to test On you computer##
  1. If you have a Arduino.
@@ -51,7 +56,7 @@ pi.
 
 ![](https://raw.github.com/gmszone/iot/master/doc/images/android.png)
 
-  1. Download the Android app [Stay at Home][10]
+  1. Download the Android app [Stay at Home][13]
 
 ##Basic##
 
@@ -66,6 +71,10 @@ pi.
 ##Seed##
     php  artisan db:seed
 
+##BBS##
+QQ群：348100589
+BBS： http://bbs.phodal.com
+
 [1]:http://b.phodal.com
 [2]:http://www.phodal.com/blog/bare-minimum-iot
 [3]:https://github.com/gmszone/iot/wiki
@@ -75,4 +84,8 @@ pi.
 [7]:http://www.phodal.com/blog/bare-minimum-iot-system-about-restful/
 [8]:http://www.phodal.com/blog/bare-minimum-iot-system-restful-template/
 [9]:http://www.phodal.com/blog/bare-minimum-iot-system-ajax/
-[10]:https://github.com/gmszone/Home-Anywhere/raw/master/app/build/apk/app-debug-unaligned.apk
+[10]:http://www.phodal.com/blog/bare-minimum-iot-system-date-commucation/
+[11]:http://www.phodal.com/blog/bare-minimum-iot-system-mcu-commucation/
+[12]:http://www.phodal.com/blog/bare-minimum-iot-system-android-example/
+[13]:https://github.com/gmszone/Home-Anywhere/raw/master/app/build/apk/app-debug-unaligned.apk
+[14]:http://bbs.phodal.com
