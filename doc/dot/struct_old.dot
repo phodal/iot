@@ -2,8 +2,8 @@ digraph G{
         compound=true;
 
         subgraph cluster0{
-                RaspberryPi->Hardware;
-                Hardware->RaspberryPi[label="Serial Commucation"];
+                RaspberryPi->Arduino;
+                Arduino->RaspberryPi[label="Serial Commucation"];
                 }
         subgraph cluster1{
                 Server->RaspberryPi [label="GET/POST"];

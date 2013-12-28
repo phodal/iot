@@ -1,4 +1,4 @@
-﻿#Minimum Internet of Things#
+#Minimum Internet of Things#
 A Minimum IOT with arduino and raspberry pi.
 
 一个最小的物联网系统设计方案及源码
@@ -6,7 +6,8 @@ A Minimum IOT with arduino and raspberry pi.
     android/ 一个最小的Android程序实例
     rest/ PHP Laravel Framework to create RESTful API
     python/ 简单的pyhon示例
-    arduino/ A simple version of Hardware
+    hardware/  硬件串口通信收集
+	 -/ arduino Arduino板
     doc/  文档 简介ppt nginx配置 系统框架图
 
 
