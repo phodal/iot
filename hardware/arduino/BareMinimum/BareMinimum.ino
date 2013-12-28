@@ -1,7 +1,8 @@
+int ledPort=13;
 
 void setup() {
   Serial.begin(9600);
-  pinMode(13,OUTPUT);
+  pinMode(ledPort,OUTPUT);
 }
 
 int serialData;
@@ -17,8 +18,8 @@ void loop() {
     Serial.print(serialData);
   }
   if(serialData==1){
-    digitalWrite(13,HIGH);
+    digitalWrite(ledPort,HIGH);
   }else{
-    digitalWrite(13,LOW);
+    digitalWrite(ledPort,LOW);
   }
 }
