@@ -1,11 +1,13 @@
 #Minimum Internet of Things#
-A Minimum IOT with arduino and raspberry 
-pi.
+A Minimum IOT with arduino and raspberry pi.
+
+一个最小的物联网系统设计方案及源码
 
     android/ for a last test project of android in iot
     rest/ PHP Laravel Framework to create RESTful API
     python/ simple python get from internet run in RPI Or PC
     arduino/ A simple version of Hardware
+    doc/  The document files
 
 
 ##System Structure##
@@ -69,10 +71,13 @@ pi.
 - Processing/C/C++ (Arduino)
 
 ##Seed##
+
     php  artisan db:seed
 
-##BBS##
+##交流##
+
 QQ群：348100589
+
 BBS： http://bbs.phodal.com
 
 [1]:http://b.phodal.com
