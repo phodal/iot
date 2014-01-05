@@ -10,6 +10,21 @@ A Minimum IOT with arduino and raspberry pi.
 	 -/ arduino Arduino板
     doc/  文档 简介ppt nginx配置 系统框架图
 
+##简要的初始化代码说明##
+代码中因为有两个子模块，即Android与REST，Android是一个简单的Android程序示例,REST作为子模块的原因是考虑到后期会用更简单的源码来替换。但是laravel作为一个运行环境，还是很理想的。
+
+先clone
+
+    git clone https://github.com/gmszone/iot.git iot 
+
+子模块
+    
+    git submodule init
+    git submodule update
+
+    
+
+  
 
 ##系统框架图##
 
