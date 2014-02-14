@@ -4,3 +4,6 @@
 [submodule "rest"]
 	path = rest
 	url = https://github.com/gmszone/iot-rest.git
+[submodule "dashboard"]
+	path = dashboard
+	url = https://github.com/gmszone/iot-dashboard
