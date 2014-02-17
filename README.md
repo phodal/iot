@@ -9,6 +9,7 @@ A Minimum IOT with arduino and raspberry pi.
     hardware/  硬件串口通信收集
 	 -/ arduino Arduino板
     doc/  文档 简介ppt nginx配置 系统框架图
+    dashboard/ 基于ruby框架dashing的dashboard
 
 ##简要的初始化代码说明##
 代码中因为有两个子模块，即Android与REST，Android是一个简单的Android程序示例,REST作为子模块的原因是考虑到后期会用更简单的源码来替换。但是laravel作为一个运行环境，还是很理想的。
@@ -53,6 +54,10 @@ A Minimum IOT with arduino and raspberry pi.
 [最小物联网系统（八）——与单片机通讯][11]
 
 [最小物联网系统（九）——Android客户端][12]
+
+[最小物联网系统设计——给Laravel添加测试][15]
+
+[最小物联网系统——Dashboard][16]
 
 ##How to test On you computer##
  1. If you have a Arduino.
@@ -251,8 +256,6 @@ Internet是一个由计算机组成的网络，那么物联网就是一个由物
 
 ##系统框架##
 
-![](https://raw.github.com/gmszone/iot/master/dot/struct.jpg)
-
 ###为什么是Raspberry PI###
 
 Raspberry Pi在这里只是充当了数据的发送和接收，虽然我们可以直接将Raspberry PI作为控制的对象，但是将这个从中剥离来讲清楚系统的结构会更加简单。从而，可以让我们把核心注意力聚焦在要解决的问题上，也就是数据传送，每个部分都可以简单地从系统剥离出来，用另外的事物来替换。
@@ -287,3 +290,5 @@ Raspberry Pi在这里只是充当了数据的发送和接收，虽然我们可�
 [12]:http://www.phodal.com/blog/bare-minimum-iot-system-android-example/
 [13]:https://github.com/gmszone/Home-Anywhere/raw/master/app/build/apk/app-debug-unaligned.apk
 [14]:http://bbs.phodal.com
+[15]:http://www.phodal.com/blog/bare-minimum-iot-system-add-test-for-laravel/
+[16]:http://www.phodal.com/blog/bare-minimum-iot-system-dashboard-framework-dashing/
