@@ -8,12 +8,6 @@
 
 **原因：**不管你是准备在Win环境下开发，还是在Linux环境下开发，先用一个好的IDE可以省掉很多麻烦，代码提示功能简直是新手的福音。过早地脱离代码提示，有好有坏，建议使用。
 
-- **粗体** (`Ctrl+B`) and *斜体* (`Ctrl+I`)
-- 引用 (`Ctrl+Q`)
-- 代码块 (`Ctrl+K`)
-- 标题 1, 2, 3 (`Ctrl+1`, `Ctrl+2`, `Ctrl+3`)
-- 列表 (`Ctrl+U` and `Ctrl+Shift+O`)
-
 ### 2、[上w3school学习](http://www.w3school.com.cn/index.html) ###
 
 **HTML基本知识 （1 - 2天）、CSS、CSS3基本知识 （1 - 2天）**
