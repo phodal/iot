@@ -276,6 +276,11 @@ Raspberry Pi在这里只是充当了数据的发送和接收，虽然我们可�
 只是因为个人喜爱，你也可以用Ruby On Rails来搭建这样一个功能，或者是Java。只不过PHP在我的服务器上运行得挺不错的，而且我又不需要重新去写配置那些配置。
 同时Laravel可以简单的开发我们所需要的功能，换句话说他是PHP世界的Ruby On Rails。
 
+## Liscense
+
+© 2014 Phodal Huang. This code is distributed under the MIT license.
+
+
 [1]:http://b.phodal.com
 [2]:http://www.phodal.com/blog/bare-minimum-iot
 [3]:https://github.com/gmszone/iot/wiki
