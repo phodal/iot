@@ -1,3 +1,6 @@
+#文档#
+[最小物联网系统文档][https://github.com/gmszone/iot-doc]
+
 #Minimum Internet of Things#
 A Minimum IOT with arduino and raspberry pi.
 
@@ -16,16 +19,12 @@ A Minimum IOT with arduino and raspberry pi.
 
 先clone
 
-    git clone https://github.com/gmszone/iot.git iot 
+    git clone https://github.com/gmszone/iot.git iot
 
 子模块
-    
+
     git submodule init
     git submodule update
-
-    
-
-  
 
 ##系统框架图##
 
@@ -62,19 +61,19 @@ A Minimum IOT with arduino and raspberry pi.
 ##How to test On you computer##
  1. If you have a Arduino.
 
- 2. Upload the arduino/BareMinimum.ino to you Arduino 
+ 2. Upload the arduino/BareMinimum.ino to you Arduino
 
 
  3. if Windows need to Change the /dev/ttyACM0 to the COM port for example COM3.If Use of ttyACM0 need to change it to suitable
 
         cd python
- 
+
         sudo python get.py
 
  4. open localhost/athome/create to create a seed.and open /athome/1/edit for a status change
 
  5. For a basic test you can visit [b.phodal.com][1]
- 
+
 ##How to test On you Android Phone
 
 ![](https://raw.github.com/gmszone/iot/master/doc/images/android.png)
@@ -122,7 +121,7 @@ BBS： http://bbs.phodal.com
     * images 图片放置目录
     * ppt jmpress.js做的ppt
     * nginx nginx配置示例以及说明
-    
+
 ##使用说明##
 需要在开机前用RPI连上硬件，RPI需要联网，在开机前做好准备。
 
@@ -130,13 +129,13 @@ BBS： http://bbs.phodal.com
 RPI主要运行获取数据以及与Arduino通讯，通过开头运行python脚本的方法。
 
 修改rc.local
-    
+
      sudo vim /etc/rc.local
-     
+
 添加信命令到exit 0之前
 
      sudo python /home/iot.py
-     
+
 需要将python目录下的iot.py复制到home目录下,访问/dev/ttyACM0需要root权限。
 
 ###Hardware###
@@ -152,7 +151,7 @@ RPI主要运行获取数据以及与Arduino通讯，通过开头运行python脚�
 创建数据库步骤如下：
 
     mysql -uroot -p
-    create database iot;    
+    create database iot;
 
 修改数据库密码的路径
 
@@ -170,7 +169,7 @@ RPI主要运行获取数据以及与Arduino通讯，通过开头运行python脚�
         'collation' => 'utf8_unicode_ci',
         'prefix'    => '',
         ),
-        
+
 
 ###Android###
 构建了一个简单的获取JSON数据及解析的程序，在Android 4.0上运行正常，其他设备或平台暂未测试。
@@ -200,20 +199,20 @@ RPI主要运行获取数据以及与Arduino通讯，通过开头运行python脚�
  - 注册一个github帐号
  - 建一个简单的项目及使用git版本管理工具来进行基本的操作熟悉
  - git clone 项目到你的工作目录。
-    - 如果你不熟悉git的用法，那么请先clone 
+    - 如果你不熟悉git的用法，那么请先clone
     - 将你修改完的代码放至指定的目录，hardware/硬件设备
     - 确认没有添加其他不必要的东西，如可执行的二进制文件也不是必需的。
  - git push 就这简单
     - 你还需要联系我或者其他项目成员获得push权限。
-    
+
  ####注意事项####
- 
+
  - 不要push可执行的二进制文件
  - 仅工程及源码就足够了
  - 如果一个硬件下面有多个不同的源码库
    - 假设有lib1以及lib2，硬件为atmega16
    - 重新命名原来的项目名为atmega16-lib1，新的项目名为atmega16-lib2再进行push
-  
+
 ##关于物联网##
 <blockquote>物联网（Internet of Things，缩写IOT）是一个基于互联网、传统电信网等信息承载体，让所有能够被独立寻址的普通物理对象实现互联互通的网络。</blockquote>
 
