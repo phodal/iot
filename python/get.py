@@ -11,7 +11,7 @@ while 1:
         date=urllib2.urlopen(url)
         result=json.load(date)
         status=result[0]['led1']
-        print status
+        print result
     except urllib2.URLError:
         print "Bad URL or timeout"
 
