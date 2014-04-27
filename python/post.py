@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 import requests
 
 url = "http://b.phodal.com/athome/1"
