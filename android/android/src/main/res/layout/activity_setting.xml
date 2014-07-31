@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/edtTelephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="输入手机号码...">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnWrite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="保存" />
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="读取测试" />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="gridlayout-v7-19.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/android/build/exploded-aar/com.android.support/gridlayout-v7/19.1.0/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/android/build/exploded-aar/com.android.support/gridlayout-v7/19.1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

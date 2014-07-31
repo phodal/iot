@@ -1,0 +1,14 @@
+digraph G{
+        compound=true;
+
+        subgraph cluster0{
+                RaspberryPi->Arduino;
+                Arduino->RaspberryPi[label="Serial Commucation"];
+                }
+        subgraph cluster1{
+                Server->RaspberryPi [label="GET/POST"];
+                RaspberryPi->Server;
+                Browser->Server [label="CRUD"];
+                Server->Browser [label="Ajax"];
+                }
+}
