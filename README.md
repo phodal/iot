@@ -19,7 +19,12 @@ A Minimum IOT with arduino and raspberry pi.
 
 先clone
 
+   git clone git@github.com:gmszone/iot.git iot
+
+or 
+
     git clone https://github.com/gmszone/iot.git iot
+
 
 子模块
 
