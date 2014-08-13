@@ -1,5 +1,13 @@
 #文档#
+
+
 [最小物联网系统文档](https://github.com/gmszone/iot-doc)
+
+##HTTP vs CoAP
+
+现有的这个版本是HTTP版，目前的CoAP版正在开发中，欢迎加入。
+
+[https://github.com/gmszone/iot-coap](https://github.com/gmszone/iot-coap)
 
 #Minimum Internet of Things#
 A Minimum IOT with arduino and raspberry pi.
