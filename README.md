@@ -2,6 +2,7 @@
 
 
 [最小物联网系统文档](https://github.com/gmszone/iot-doc)
+[一步步搭建物联网系统](http://designiot.phodal.com)
 
 ##HTTP vs CoAP
 
@@ -27,7 +28,7 @@ A Minimum IOT with arduino and raspberry pi.
 
 先clone
 
-   git clone git@github.com:gmszone/iot.git iot
+    git clone git@github.com:gmszone/iot.git iot
 
 or 
 
@@ -43,21 +44,17 @@ or
 
 ![](https://raw.github.com/gmszone/iot/master/doc/dot/struct.jpg)
 
-##如何在电脑上测试
+##测试
 
- 1. 有一个Arduino开发板.
+ 1. 将arduino/BareMinimum.ino 烧录到开发板上
 
- 2.将arduino/BareMinimum.ino 烧录到开发板上
+ 2. 执行get.py (ps:如果用的是Windows系统 需要将get.py中的 /dev/ttyACM0 改为 COM*.)
 
+        sudo python python/get.py
 
- 3. 如果用的是Windows系统 需要将get.py中的 /dev/ttyACM0 改为 COM*.
+ 3. 打开 http://localhost/athome/create 创建一个数据。打开 http://localhost/athome/1/edit 编辑状态
 
-        cd python
-        sudo python get.py
-
- 4. 打开 localhost/athome/create to 创建一个数据。打开 /athome/1/edit 编辑状态
-
- 5. 作为测试，你可以访问[b.phodal.com][1]
+ 4. 测试网址: [b.phodal.com][1]
 
 ##如何在Android手机上测试
 
