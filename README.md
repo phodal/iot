@@ -1,7 +1,5 @@
-#文档#
+#文档
 
-
-[最小物联网系统文档](https://github.com/gmszone/iot-doc)
 [一步步搭建物联网系统](http://designiot.phodal.com)
 
 ##HTTP vs CoAP
@@ -42,25 +40,25 @@ or
 
 ##系统框架图##
 
-![](https://raw.github.com/gmszone/iot/master/doc/dot/struct.jpg)
+![Struct](https://raw.github.com/gmszone/iot/master/doc/dot/struct.jpg)
 
 ##测试
 
- 1. 将arduino/BareMinimum.ino 烧录到开发板上
+ 1.将arduino/BareMinimum.ino 烧录到开发板上
 
- 2. 执行get.py (ps:如果用的是Windows系统 需要将get.py中的 /dev/ttyACM0 改为 COM*.)
+ 2.执行get.py (ps:如果用的是Windows系统 需要将get.py中的 /dev/ttyACM0 改为 COM*.)
 
         sudo python python/get.py
 
- 3. 打开 http://localhost/athome/create 创建一个数据。打开 http://localhost/athome/1/edit 编辑状态
+ 3.打开 http://localhost/athome/create 创建一个数据。打开 http://localhost/athome/1/edit 编辑状态
 
- 4. 测试网址: [b.phodal.com][1]
+ 4.测试网址: [b.phodal.com][1]
 
 ##如何在Android手机上测试
 
 ![](https://raw.github.com/gmszone/iot/master/doc/images/android.png)
 
-  1. 下载安装 [Stay at Home][13]
+  1.下载安装 [Stay at Home][13]
 
 ##交流
 
@@ -92,11 +90,11 @@ QQ群：348100589
 
 [最小物联网系统——Dashboard][16]
 
-## Liscense
+##Liscense
 
-© 2014 Phodal Huang. This code is distributed under the MIT license.
+© 2014 [Phodal Huang][phodal]. This code is distributed under the MIT license.
 
-[1]:http://b.phodal.com
+[1]:http://b.phodal.com/
 [2]:http://www.phodal.com/blog/bare-minimum-iot
 [3]:https://github.com/gmszone/iot/wiki
 [4]:http://www.phodal.com/blog/bare-minimum-iot-system-structure/
@@ -109,6 +107,7 @@ QQ群：348100589
 [11]:http://www.phodal.com/blog/bare-minimum-iot-system-mcu-commucation/
 [12]:http://www.phodal.com/blog/bare-minimum-iot-system-android-example/
 [13]:https://github.com/gmszone/Home-Anywhere/raw/master/app/build/apk/app-debug-unaligned.apk
-[14]:http://bbs.phodal.com
+[14]:http://bbs.phodal.com/
 [15]:http://www.phodal.com/blog/bare-minimum-iot-system-add-test-for-laravel/
 [16]:http://www.phodal.com/blog/bare-minimum-iot-system-dashboard-framework-dashing/
+[phodal]:http://www.phodal.com/
