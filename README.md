@@ -90,7 +90,7 @@ QQ群：348100589
 
 [最小物联网系统——Dashboard][16]
 
-##Liscense
+##License
 
 © 2014 [Phodal Huang][phodal]. This code is distributed under the MIT license.
 
