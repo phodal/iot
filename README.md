@@ -48,7 +48,7 @@ or
 
  2.执行get.py (ps:如果用的是Windows系统 需要将get.py中的 /dev/ttyACM0 改为 COM*.)
 
-        sudo python python/get.py
+    sudo python python/get.py
 
  3.打开 http://localhost/athome/create 创建一个数据。打开 http://localhost/athome/1/edit 编辑状态
 
