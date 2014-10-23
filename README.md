@@ -6,7 +6,7 @@
 
 现有的这个版本是HTTP版，目前的CoAP版正在开发中，欢迎加入。
 
-[https://github.com/gmszone/iot-coap](https://github.com/gmszone/iot-coap)
+[https://github.com/phodal/iot-coap](https://github.com/phodal/iot-coap)
 
 #Minimum Internet of Things#
 A Minimum IOT with arduino and raspberry pi.
@@ -26,11 +26,11 @@ A Minimum IOT with arduino and raspberry pi.
 
 先clone
 
-    git clone git@github.com:gmszone/iot.git iot
+    git clone git@github.com:phodal/iot.git iot
 
 or 
 
-    git clone https://github.com/gmszone/iot.git iot
+    git clone https://github.com/phodal/iot.git iot
 
 
 子模块
@@ -40,7 +40,7 @@ or
 
 ##系统框架图##
 
-![Struct](https://raw.github.com/gmszone/iot/master/doc/dot/struct.jpg)
+![Struct](https://raw.github.com/phodal/iot/master/doc/dot/struct.jpg)
 
 ##测试
 
@@ -56,7 +56,7 @@ or
 
 ##如何在Android手机上测试
 
-![](https://raw.github.com/gmszone/iot/master/doc/images/android.png)
+![](https://raw.github.com/phodal/iot/master/doc/images/android.png)
 
   1.下载安装 [Stay at Home][13]
 
@@ -106,7 +106,7 @@ QQ群：348100589
 [10]:http://www.phodal.com/blog/bare-minimum-iot-system-date-commucation/
 [11]:http://www.phodal.com/blog/bare-minimum-iot-system-mcu-commucation/
 [12]:http://www.phodal.com/blog/bare-minimum-iot-system-android-example/
-[13]:https://github.com/gmszone/Home-Anywhere/raw/master/app/build/apk/app-debug-unaligned.apk
+[13]:https://github.com/phodal/Home-Anywhere/raw/master/app/build/apk/app-debug-unaligned.apk
 [14]:http://bbs.phodal.com/
 [15]:http://www.phodal.com/blog/bare-minimum-iot-system-add-test-for-laravel/
 [16]:http://www.phodal.com/blog/bare-minimum-iot-system-dashboard-framework-dashing/
