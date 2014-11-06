@@ -23,6 +23,11 @@ A Minimum IOT with arduino and raspberry pi.
 
 ##Install
 
+###直接下载
+
+已打包好的: [https://github.com/phodal/iot/archive/0.9.5.zip](https://github.com/phodal/iot/archive/0.9.5.zip)
+
+###使用Git
 代码中因为有两个子模块，即Android与REST，Android是一个简单的Android程序示例,REST作为子模块的原因是考虑到后期会用更简单的源码来替换。但是laravel作为一个运行环境，还是很理想的。
 
 先clone
