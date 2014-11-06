@@ -1,27 +1,28 @@
-#文档
+#开源物联网系统设计
 
-[一步步搭建物联网系统](http://designiot.phodal.com)
+相关文档可以参考这里: [一步步搭建物联网系统](http://designiot.phodal.com)
 
-##HTTP vs CoAP
+系统框架图: ![Struct](https://raw.github.com/phodal/iot/master/doc/dot/struct.jpg)
 
 现有的这个版本是HTTP版，目前的CoAP版正在开发中，欢迎加入。
 
 [https://github.com/phodal/iot-coap](https://github.com/phodal/iot-coap)
 
-#Minimum Internet of Things#
+#Design Internet of Things 
+
 A Minimum IOT with arduino and raspberry pi.
 
 一个最小的物联网系统设计方案及源码
 
-    android/ 一个最小的Android程序实例
-    rest/ PHP Laravel Framework to create RESTful API
-    python/ 简单的pyhon示例
-    hardware/  硬件串口通信收集
-	 -/ arduino Arduino板
-    doc/  文档 简介ppt nginx配置 系统框架图
-    dashboard/ 基于ruby框架dashing的dashboard
+ - android/ 一个最小的Android程序实例
+ - rest/ PHP Laravel Framework to create RESTful API
+ - python/ 简单的pyhon示例
+ - hardware/  硬件串口通信收集
+ - doc/  文档 简介ppt nginx配置 系统框架图
+ - dashboard/ 基于ruby框架dashing的dashboard
 
-##简要的初始化代码说明##
+##Install
+
 代码中因为有两个子模块，即Android与REST，Android是一个简单的Android程序示例,REST作为子模块的原因是考虑到后期会用更简单的源码来替换。但是laravel作为一个运行环境，还是很理想的。
 
 先clone
@@ -38,10 +39,6 @@ or
     git submodule init
     git submodule update
 
-##系统框架图##
-
-![Struct](https://raw.github.com/phodal/iot/master/doc/dot/struct.jpg)
-
 ##测试
 
  1.将arduino/BareMinimum.ino 烧录到开发板上
@@ -54,7 +51,7 @@ or
 
  4.测试网址: [b.phodal.com][1]
 
-##如何在Android手机上测试
+##Android 示例
 
 ![](https://raw.github.com/phodal/iot/master/doc/images/android.png)
 
@@ -64,7 +61,7 @@ or
 
 QQ群：348100589
 
-##中文文档
+##相关文档
 
 [一个最小的物联网系统设计方案及源码][2]
 
