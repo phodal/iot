@@ -113,3 +113,6 @@ QQ群：348100589
 [15]:http://www.phodal.com/blog/bare-minimum-iot-system-add-test-for-laravel/
 [16]:http://www.phodal.com/blog/bare-minimum-iot-system-dashboard-framework-dashing/
 [phodal]:http://www.phodal.com/
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-56559870-1/iot/index)](https://github.com/igrigorik/ga-beacon)
