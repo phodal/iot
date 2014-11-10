@@ -1,4 +1,5 @@
 #开源物联网系统设计
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/phodal/iot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 相关文档可以参考这里: [一步步搭建物联网系统](http://designiot.phodal.com)
 
