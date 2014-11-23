@@ -61,6 +61,9 @@ or
 
 ![](https://raw.github.com/phodal/iot/master/doc/images/android.png)
 
+
+项目地址: [IoT-Android](https://github.com/phodal/iot-android)
+
   1.下载安装 [Stay at Home][13]
 
 ##交流
