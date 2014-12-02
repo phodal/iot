@@ -61,10 +61,17 @@ or
 
 ##Android 示例
 
-![](https://raw.github.com/phodal/iot/master/doc/images/android.png)
+![Android](./doc/images/android.png)
 
+示例界面
 
-项目地址: [IoT-Android](https://github.com/phodal/iot-android)
+![Android](./doc/images/app_demo.jpg)
+
+项目主页: [IoT-Android](https://github.com/phodal/iot-android)
+
+已测支持平台: ``HTC G1``,``Motor XT300``,``SONY ST25I``
+
+主要依赖库: ``GSON``
 
   1.下载安装 [Stay at Home][13]
 
