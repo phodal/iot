@@ -1,5 +1,4 @@
 #开源物联网系统设计
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/phodal/iot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 相关文档可以参考这里: [一步步搭建物联网系统](http://designiot.phodal.com)
 
@@ -121,7 +120,7 @@ QQ群：348100589
 [10]:http://www.phodal.com/blog/bare-minimum-iot-system-date-commucation/
 [11]:http://www.phodal.com/blog/bare-minimum-iot-system-mcu-commucation/
 [12]:http://www.phodal.com/blog/bare-minimum-iot-system-android-example/
-[13]:https://github.com/phodal/Home-Anywhere/raw/master/app/build/apk/app-debug-unaligned.apk
+[13]:https://github.com/phodal/iot-android/raw/master/app/build/apk/app-debug-unaligned.apk
 [14]:http://bbs.phodal.com/
 [15]:http://www.phodal.com/blog/bare-minimum-iot-system-add-test-for-laravel/
 [16]:http://www.phodal.com/blog/bare-minimum-iot-system-dashboard-framework-dashing/
