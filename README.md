@@ -1,5 +1,7 @@
 #开源物联网系统设计
 
+> 这个项目的代码不再更新
+
 相关文档可以参考这里: [一步步搭建物联网系统](http://designiot.phodal.com)
 
 系统框架图: ![Struct](https://raw.github.com/phodal/iot/master/doc/dot/struct.jpg)
@@ -10,7 +12,7 @@
 
 [物联网相关资料收集](https://github.com/phodal/collection-iot)
 
-[吊兰-MQTT协议,CoAP协议,WebSocket,物联网协议在线测试](http://mqtt.phodal.com)
+[吊兰-MQTT协议,CoAP协议,WebSocket,物联网协议](https://github.com/phodal/diaonan)
 
 #Design Internet of Things 
 
@@ -30,23 +32,6 @@ A Minimum IOT with arduino and raspberry pi.
 ###直接下载
 
 已打包好的: [https://github.com/phodal/iot/archive/0.9.5.zip](https://github.com/phodal/iot/archive/0.9.5.zip)
-
-###使用Git
-代码中因为有两个子模块，即Android与REST，Android是一个简单的Android程序示例,REST作为子模块的原因是考虑到后期会用更简单的源码来替换。但是laravel作为一个运行环境，还是很理想的。
-
-先clone
-
-    git clone git@github.com:phodal/iot.git iot
-
-or 
-
-    git clone https://github.com/phodal/iot.git iot
-
-
-子模块
-
-    git submodule init
-    git submodule update
 
 ##测试
 
