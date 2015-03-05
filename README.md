@@ -10,7 +10,7 @@
 
 [https://github.com/phodal/iot-coap](https://github.com/phodal/iot-coap)
 
-[物联网相关资料收集](https://github.com/phodal/collection-iot)
+[物联网相关资料收集](https://github.com/phodal/awesome-iot)
 
 [吊兰-MQTT协议,CoAP协议,WebSocket,物联网协议](https://github.com/phodal/diaonan)
 
