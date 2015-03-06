@@ -61,6 +61,10 @@ A Minimum IOT with arduino and raspberry pi.
 
   1.下载安装 [Stay at Home][13]
 
+##论文展示
+
+Phodal毕业论文: [https://github.com/phodal/thesis](https://github.com/phodal/thesis)
+
 ##交流
 
 QQ群：348100589
