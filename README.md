@@ -14,6 +14,13 @@
 
 [吊兰-MQTT协议,CoAP协议,WebSocket,物联网协议](https://github.com/phodal/diaonan)
 
+Android App:《教你设计物联网》
+
+<a href="https://play.google.com/store/apps/details?id=com.phodal.designiot">
+  <img alt="Get it on Google Play"
+       src="https://developer.android.com/images/brand/zh-cn_generic_rgb_wo_60.png" />
+</a>
+
 #Design Internet of Things 
 
 A Minimum IOT with arduino and raspberry pi.
