@@ -6,10 +6,6 @@
 
 系统框架图: ![Struct](https://raw.github.com/phodal/iot/master/doc/dot/struct.jpg)
 
-现有的这个版本是HTTP版，在线demo[http://b.phodal.com](http://b.phodal.com)。
-
-[https://github.com/phodal/iot-coap](https://github.com/phodal/iot-coap)
-
 [物联网相关资料收集](https://github.com/phodal/awesome-iot)
 
 [吊兰-MQTT协议,CoAP协议,WebSocket,物联网协议](https://github.com/phodal/diaonan)
