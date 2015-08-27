@@ -1,14 +1,18 @@
 #开源物联网系统设计
 
-> 这个项目的代码不再更新
+> 仅项目的代码仅供学习，用于产品请使用[Lan](https://github.com/phodal/lan)(Github: [https://github.com/phodal/lan](https://github.com/phodal/lan))
+
+Lan构架
+
+![Lan架构](https://raw.githubusercontent.com/phodal/lan/master/docs/iot.jpg)
 
 相关文档可以参考这里: [一步步搭建物联网系统](http://designiot.phodal.com)
 
-系统框架图: ![Struct](https://raw.github.com/phodal/iot/master/doc/dot/struct.jpg)
+系统框架图: 
+
+![Struct](https://raw.github.com/phodal/iot/master/doc/dot/struct.jpg)
 
 [物联网相关资料收集](https://github.com/phodal/awesome-iot)
-
-[吊兰-MQTT协议,CoAP协议,WebSocket,物联网协议](https://github.com/phodal/diaonan)
 
 Android App:《教你设计物联网》
 
