@@ -1,4 +1,4 @@
-#开源物联网系统设计
+# 开源物联网系统设计
 
 > 仅项目的代码仅供学习，用于产品请使用[Lan](https://github.com/phodal/lan)(Github: [https://github.com/phodal/lan](https://github.com/phodal/lan))
 
@@ -28,7 +28,7 @@ Android App:《教你设计物联网》
        src="https://developer.android.com/images/brand/zh-cn_generic_rgb_wo_60.png" />
 </a>
 
-#Design Internet of Things 
+# Design Internet of Things 
 
 A Minimum IOT with arduino and raspberry pi.
 
@@ -41,13 +41,13 @@ A Minimum IOT with arduino and raspberry pi.
  - doc/  文档 简介ppt nginx配置 系统框架图
  - dashboard/ 基于ruby框架dashing的dashboard
 
-##Install
+## Install
 
-###直接下载
+### 直接下载
 
 已打包好的: [https://github.com/phodal/iot/archive/0.9.5.zip](https://github.com/phodal/iot/archive/0.9.5.zip)
 
-##测试
+## 测试
 
  1.将arduino/BareMinimum.ino 烧录到开发板上
 
@@ -59,7 +59,7 @@ A Minimum IOT with arduino and raspberry pi.
 
  4.测试网址: [b.phodal.com][1]
 
-##Android 示例
+## Android 示例
 
 ![Android](./doc/images/android.png)
 
@@ -75,11 +75,11 @@ A Minimum IOT with arduino and raspberry pi.
 
   1.下载安装 [Stay at Home][13]
 
-##论文展示
+## 论文展示
 
 Phodal毕业论文: [https://github.com/phodal/thesis](https://github.com/phodal/thesis)
 
-##交流
+## 交流
 
 QQ群：348100589
 
@@ -109,7 +109,7 @@ QQ群：348100589
 
 [最小物联网系统——Dashboard][16]
 
-##License
+## License
 
 © 2014 [Phodal Huang][phodal]. This code is distributed under the MIT license.
 
@@ -130,6 +130,5 @@ QQ群：348100589
 [15]:http://www.phodal.com/blog/bare-minimum-iot-system-add-test-for-laravel/
 [16]:http://www.phodal.com/blog/bare-minimum-iot-system-dashboard-framework-dashing/
 [phodal]:https://www.phodal.com/
-
 
 [![Analytics](https://ga-beacon.appspot.com/UA-56559870-1/iot/index)](https://github.com/igrigorik/ga-beacon)
