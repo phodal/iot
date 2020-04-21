@@ -1,6 +1,6 @@
 # 开源物联网系统设计
 
-> 仅项目的代码仅供学习，用于产品请使用[Lan](https://github.com/phodal/lan)(Github: [https://github.com/phodal/lan](https://github.com/phodal/lan))
+> 本项目的代码仅供学习，用于产品请使用[Lan](https://github.com/phodal/lan)(Github: [https://github.com/phodal/lan](https://github.com/phodal/lan))
 
 《自己动手设计物联网》现已出版：
 
