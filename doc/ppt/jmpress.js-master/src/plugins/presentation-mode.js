@@ -34,7 +34,7 @@
 
 			window.addEventListener("message", function(event) {
 				// We do not test orgin, because we want to accept messages
-				// from all orgins
+				// from all origins
 				try {
 					if(typeof event.data !== "string" || event.data.indexOf(PREFIX) !== 0) {
 						return;
