@@ -83,6 +83,7 @@ Phodal毕业论文: [https://github.com/phodal/thesis](https://github.com/phodal
 
 QQ群：348100589
 
+
 ##相关文档
 
 [一个最小的物联网系统设计方案及源码][2]
@@ -132,3 +133,150 @@ QQ群：348100589
 [phodal]:https://www.phodal.com/
 
 [![Analytics](https://ga-beacon.appspot.com/UA-56559870-1/iot/index)](https://github.com/igrigorik/ga-beacon)
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Open Source IoT System Design
+
+> The code in this project is for learning purposes only. For product use, please use [Lan](https://github.com/phodal/lan) (Github: [https://github.com/phodal/lan](https://github.com/phodal/lan))
+
+"Designing Your Own Internet of Things" is now published:
+
+![Designiot](http://ebook.designiot.cn/designiot.jpg)
+
+Buy now: [Amazon](https://www.amazon.cn/dp/B01IBZWTWW/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=BDXF90QZX6WX&coliid=I19EB97K0GNLW8), [JD.com](http://search.jd.com/Search?k eyword=%E8%87%AA%E5%B7%B1%E5%8A%A8%E6%89%8B%E8%AE%BE%E8%AE%A1%E7%89%A9%E8%81%94%E7%BD%91&enc=utf-8&wq=%E8%87%AA%E5%B7%B1%E5%8A%A8%E6%89%8B%E8%AE%BE%E8%AE%A1%E7%89%A9%E8%81%94%E7%BD%91&pvid=k24y6hri.l4xi28)
+
+LAN Architecture
+
+![LAN Architecture](https://raw.githubusercontent.com/phodal/lan/master/docs/iot.jpg)
+
+Related documentation can be found here: [Building an IoT System Step by Step](http://designiot.phodal.com)
+
+System Framework Diagram:
+
+![Struct](https://raw.github.com/phodal/iot/master/doc/dot/struct.jpg)
+
+[IoT Related Resources Collection](https://github.com/phodal/awesome-iot)
+
+Android App: "Teach You to Design an IoT System"
+
+<a href="https://play.google.com/store/apps/details?id=com.phodal.designiot">
+
+<img alt="Get it on Google Play"
+
+src="https://developer.android.com/images/brand/zh-cn_generic_rgb_wo_60.png" />
+
+</a>
+
+# Design Internet of Things
+
+A Minimum IoT with Arduino and Raspberry Pi.
+
+A minimal IoT system design and source code
+
+- android/ A minimal Android application example
+
+- rest/ PHP Laravel Framework to create RESTful API
+
+- python/ A simple Python example
+
+- hardware/ Hardware serial communication collection
+
+- doc/ Documentation, introduction PPT, Nginx configuration, system framework diagram
+
+- dashboard/ A dashboard based on the Ruby framework dashing
+
+## Install
+
+### Direct Download
+
+Pre-packaged: [https://github.com/phodal/iot/archive/0.9.5.zip](https://github.com/phodal/iot/archive/0.9.5.zip)
+
+## Testing
+
+1. Flash arduino/BareMinimum.ino to the development board
+
+2. Execute get.py (ps: If using a Windows system, you need to modify get.py...) Change /dev/ttyACM0 to COM*.)
+
+sudo python python/get.py
+
+3. Open http://localhost/athome/create and create a database. Open http://localhost/athome/1/edit to edit status
+
+4. Test URL: [b.phodal.com][1]
+
+## Android Example
+
+![Android](./doc/images/android.png)
+
+Example Interface
+
+![Android](./doc/images/app_demo.jpg)
+
+Project Homepage: [IoT-Android](https://github.com/phodal/iot-android)
+
+Tested Supported Platforms: ``HTC G1``,``Motor XT300``,``SONY ST25I``
+
+Main Dependency Library: ``GSON``
+
+1. Download and Install [Stay at Home][13]
+
+## Thesis Showcase
+
+Phodal Graduation Thesis: [https://github.com/phodal/thesis](https://github.com/phodal/thesis)
+
+## Communication
+
+QQ Group: 348100589
+
+## Related Documents
+
+[A Minimal IoT System Design Scheme and Source Code][2]
+
+[Minimum IoT System (I) - System Composition][4]
+
+[Minimum IoT System (II) - RESTful][5]
+
+[Minimum IoT System (III) - Creating RESTful][6]
+
+[Minimum IoT System (IV) - Detailed Explanation of Laravel's RESTful][7]
+
+[Minimum IoT System (V) - Laravel RESTful Templates][8]
+
+[Minimum IoT System (VI) - Creating Visualization with Ajax][9]
+
+[Minimum IoT System (VII) - Communicating with the Server][10]
+
+[Minimum IoT System (VIII) - Communicating with a Microcontroller][11]
+
+[Minimum IoT System (IX) - Android Client][12]
+
+[Minimum IoT System Design - Adding Tests to Laravel][15]
+
+[Minimum IoT System - Dashboard][16]
+
+## License
+
+© 2014 [Phodal Huang][phodal]. This code is distributed under the MIT license.
+
+[1]:http://b.phodal.com/
+[2]:http://www.phodal.com/blog/bare-minimum-iot
+[3]:https://github.com/gmszone/iot/wiki
+[4]:http://www.phodal.com/blog/bare-minimum-iot-system-structure/
+[5]:http://www.phodal.com/blog/bare-minimum-iot-system-restful/
+[6]:http://www.phodal.com/blog/bare-mini mum-iot-system-create-restful/
+[7]:http://www.phodal.com/blog/bare-minimum-iot-system-about-restful/
+[8]:http://www.phodal.com/blog/bare-minimum-iot-system-restful-template/
+[9]:http://www.phodal.com/blog/bare-minimum-iot-system-ajax/
+[10]:http://www.phodal.com/blog/bare-minimum-iot-system-dat e-commucation/
+[11]:http://www.phodal.com/blog/bare-minimum-iot-system-mcu-commucation/
+[12]:http://www.phodal.com/blog/bare-minimum-iot-system-android-example/
+[13]:https://github.com/phodal/iot-android/raw/master/app/build/apk/app-debug-unaligned.apk
+[14]:http://bbs.phodal.com/
+[15]:http:// www.phodal.com/blog/bare-minimum-iot-system-add-test-for-laravel/
+[16]:http://www.phodal.com/blog/bare-minimum-iot-system-dashboard-framework-dashing/
+[phodal]:https://www.phodal.com/
+
+[![Analytics](https://ga-beacon.appspot.com/UA-56559870-1/iot/index)](https://github.com/igrigorik/ga-beacon)
+
+
